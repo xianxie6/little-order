@@ -2,6 +2,11 @@
 
 一个可以直接在浏览器里玩的 3D 收纳解压小游戏。乳白色旋转柜、咖色透明抽屉门，以及一桌等着被收好的日常物品。
 
+## 在线体验
+
+- [直接打开游戏](https://xianxie6.github.io/little-order/)
+- [Vercel 地址](https://little-order-theta.vercel.app/)
+
 ## 玩法
 
 - 点击抽屉打开，再点击桌面上的物品放入，自动按同类整齐排列。
@@ -37,6 +42,8 @@ npm run preview
 在 Vercel 导入此 GitHub 仓库即可。框架选择 Vite，构建命令为 `npm run build`，输出目录为 `dist`；配置已包含在 `vercel.json` 中。也可将构建后的 `dist` 上传到其他静态网站托管平台。
 
 本项目不需要服务器、数据库或环境变量。
+
+推送到 `main` 后，GitHub Actions 会验证并发布 GitHub Pages；Vercel 的仓库集成会同步更新 Vercel 站点。
 
 ## 项目结构
 

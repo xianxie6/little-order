@@ -22,3 +22,4 @@ playwright.config.js
 /public/models/drawer.glb
 /tests/game.spec.js
 /blender/little-order.blend
+.github/
